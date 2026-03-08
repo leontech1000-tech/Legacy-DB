@@ -1,0 +1,62 @@
+{
+  "SchemaVersion": 1,
+  "UpdatedUtc": "2026-03-08T00:00:00Z",
+  "Forks": [
+    {
+      "FamilyId": "lcemp",
+      "FamilyName": "LCEMP",
+      "ShowInLauncherByDefault": true,
+      "Notes": "Community fork with username and server join arguments.",
+      "Versions": [
+        {
+          "Id": "lcemp-v1-0-3",
+          "VersionLabel": "v1.0.3",
+          "DisplayName": "LCEMP v1.0.3",
+          "SourceFolderName": "LCEMP v1.0.3",
+          "InstallFolderName": "LCEMP v1.0.3",
+          "ExecutableRelativePath": "Minecraft.Client.exe",
+          "PackageType": "zip",
+          "PackageUrl": "",
+          "ReleaseTag": "lcemp-v1.0.3",
+          "AssetFileName": "lcemp-v1.0.3.zip",
+          "HasMultiplayer": true,
+          "SupportsUsernameArgument": true,
+          "SupportsServerIpArgument": true,
+          "SupportsPortArgument": false,
+          "LaunchArgumentName": "-name",
+          "LaunchArgumentIp": "-ip",
+          "LaunchArgumentPort": "",
+          "Notes": "Supports -name <username> and -ip <server>."
+        }
+      ]
+    },
+    {
+      "FamilyId": "minecraftconsoles",
+      "FamilyName": "MinecraftConsoles",
+      "ShowInLauncherByDefault": true,
+      "Notes": "Straight executable launch with no multiplayer join arguments in Fire Launcher.",
+      "Versions": [
+        {
+          "Id": "minecraftconsoles-current",
+          "VersionLabel": "Current",
+          "DisplayName": "MinecraftConsoles Current",
+          "SourceFolderName": "LCEWindows64",
+          "InstallFolderName": "LCEWindows64",
+          "ExecutableRelativePath": "Minecraft.Client.exe",
+          "PackageType": "zip",
+          "PackageUrl": "",
+          "ReleaseTag": "minecraftconsoles-current",
+          "AssetFileName": "minecraftconsoles-current.zip",
+          "HasMultiplayer": false,
+          "SupportsUsernameArgument": false,
+          "SupportsServerIpArgument": false,
+          "SupportsPortArgument": false,
+          "LaunchArgumentName": "",
+          "LaunchArgumentIp": "",
+          "LaunchArgumentPort": "",
+          "Notes": "Launches as-is with no join arguments."
+        }
+      ]
+    }
+  ]
+}

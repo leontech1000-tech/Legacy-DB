@@ -1,4 +1,4 @@
-{
+﻿{
     "PackageId":  "v1.0.3",
     "PayloadRoot":  "payload",
     "ExecutableRelativePath":  "Minecraft.Client.exe",
@@ -6980,10 +6980,6 @@
                       "Size":  12110336
                   },
                   {
-                      "RelativePath":  "Minecraft.Client.exe.lnk",
-                      "Size":  859
-                  },
-                  {
                       "RelativePath":  "mss64.dll",
                       "Size":  486912
                   },
@@ -7178,26 +7174,6 @@
                   {
                       "RelativePath":  "windows.xbox.networking.realtimesession.winmd",
                       "Size":  18944
-                  },
-                  {
-                      "RelativePath":  "Windows64/GameHDD/20260307215735/saveData.ms",
-                      "Size":  6527264
-                  },
-                  {
-                      "RelativePath":  "Windows64/GameHDD/20260307215735/saveTitle.txt",
-                      "Size":  9
-                  },
-                  {
-                      "RelativePath":  "Windows64/GameHDD/20260307223106/saveData.ms",
-                      "Size":  4945470
-                  },
-                  {
-                      "RelativePath":  "Windows64/GameHDD/20260307223106/saveTitle.txt",
-                      "Size":  9
-                  },
-                  {
-                      "RelativePath":  "Windows64/GameHDD/profile_0.dat",
-                      "Size":  972
                   },
                   {
                       "RelativePath":  "Windows64Media/DLC/Candy Texture Pack/Data/media.arc",

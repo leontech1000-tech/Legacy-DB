@@ -4,13 +4,19 @@
 
 Fire Launcher reads `catalog.json` from the root of this repository. Each fork family contains one or more version entries. Each current version can point at a repo-backed package folder such as:
 
+- `forks/lcemp/v1.0.2/`
 - `forks/lcemp/v1.0.3/`
-- `forks/minecraftconsoles/current/`
+- `forks/minecraftconsoles/2026-05-08/`
 
 Each version folder contains:
 
 - `package.json`
 - `payload/` with the runtime files Fire Launcher downloads
+
+Current catalog families:
+
+- `LCEMP`
+- `MinecraftConsoles`
 
 ## Add a new version
 
